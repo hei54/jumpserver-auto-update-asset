@@ -3,13 +3,12 @@
 当前仅支持阿里云、金山云、华为云
 
 主要修改config.yaml文件，相关注释如下：
+
 		jumpserver:
         		ak: xxxxxxxx ##堡垒机账号
         		sk: xxxxxxxxxx #堡垒机账号密码 
-        		url: https://baidu.com ##域名或者堡垒机ip+port
-
+        		url: https://baidu.com ##域名或者堡垒机ip+port		
 		update_time: 3600 ##更新频率(s)
-
 		regionInfo:
 			{{ asset-name }}: #分组的名字
                 		{{ cloud_type }}: ##云厂商简称阿里云(ali)\华为云(hw)\金山云(js)
