@@ -3,4 +3,4 @@
 当前仅支持阿里云、金山云、华为云
 
 TODO
-添加aws、azure
+添加aws、azure、百度云
